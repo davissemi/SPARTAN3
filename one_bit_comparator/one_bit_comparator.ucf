@@ -1,0 +1,15 @@
+# Davis Semiconductor
+# Author: psd0
+# Target Device: Elbert V2
+# Description: User Constraints File for one bit comparator.
+#              SW1 and SW2 map to i0 and i1, respectively
+#              D1 maps to eq
+# Revision: 0.01 - First version
+
+# input i0 maps to SW1
+# input i1 maps to SW2
+NET "I0" LOC = "P58" | PULLUP;
+NET "I1" LOC = "P59" | PULLUP;
+
+# output eq maps to LED D1
+NET "EQ" LOC = "P55";

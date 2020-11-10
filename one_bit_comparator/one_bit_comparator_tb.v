@@ -2,14 +2,14 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 // Company: Davis Semiconductor
-// Engineer:
+// Engineer: psd0
 //
 // Create Date:   14:44:12 11/10/2020
 // Design Name:   one_bit_comparator
 // Module Name:   one_bit_comparator_tb.v
 // Project Name:  one_bit_comparator
 // Target Device:  Elbert V2
-// Tool versions:  
+// Tool versions:  ISim
 // Description: 
 //
 // Verilog Test Fixture created by ISE for module: one_bit_comparator

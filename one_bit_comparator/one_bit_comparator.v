@@ -1,14 +1,14 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: Davis Semiconductor
-// Engineer: 
+// Engineer: psd0
 // 
 // Create Date:    14:41:31 11/10/2020 
 // Design Name: 
 // Module Name:    one_bit_comparator 
 // Project Name: 
 // Target Devices: Elbert V2
-// Tool versions: 
+// Tool versions: ISE 14.7
 // Description: Compares i0 and i1, returns 1 if equal
 //
 // Dependencies: 
