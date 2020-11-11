@@ -1,0 +1,11 @@
+# Davis Semiconductor
+# Author: psd0
+# 
+# User constraints file for Elbert V2
+
+# a and b map to DIP switches 1 and 2, respectively
+NET "a" LOC = "P58" | PULLUP;
+NET "b" LOC = "P59" | PULLUP;
+
+# output gt maps to D1
+NET "gt" LOC = "P55";
