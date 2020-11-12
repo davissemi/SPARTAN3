@@ -1,0 +1,9 @@
+# Davis Semiconductor
+# Author: psd0
+
+NET "a[1]"   LOC = "P58" | PULLUP; #SW1 high order bit of A
+NET "a[0]"   LOC = "P59" | PULLUP; #SW2 low order bit of A
+NET "b[1]"   LOC = "P60" | PULLUP; #SW3 high order bit of B
+NET "b[0]"   LOC = "P63" | PULLUP; #SW4 low order bit of B
+
+NET "gt"   LOC = "P55";
