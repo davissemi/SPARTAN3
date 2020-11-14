@@ -1,0 +1,16 @@
+# Davis Semiconductor
+# Author: psd0
+# 
+# User constraints file for Elbert V2
+#
+# 2-bit comparator: Compares magnitude of 2 2-bit numbers a, b
+
+
+NET "a[1]"   LOC = "P58" | PULLUP; # SW1 MSB
+NET "a[0]"   LOC = "P59" | PULLUP; # SW2 LSB
+NET "b[1]"   LOC = "P60" | PULLUP; # SW3 MSB
+NET "b[0]"   LOC = "P63" | PULLUP; # SW4 LSB
+
+NET "a_gt_b"   LOC = "P55"; # D1 a > b
+NET "a_lt_b"   LOC = "P54"; # D2 a < b
+NET "a_eq_b"   LOC = "P51"; # D3 a = b 
