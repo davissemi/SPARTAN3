@@ -92,4 +92,3 @@ module two_bit_comparator_tb;
 	end
 	
 endmodule
-
