@@ -1,0 +1,19 @@
+# Davis Semiconductor
+# Author: psd0
+# 2020-11-17
+
+NET "a[3]"   LOC = "P58" | PULLUP; #DIP SW1
+NET "a[2]"   LOC = "P59" | PULLUP; #DIP SW2
+
+NET "a[1]"   LOC = "P60" | PULLUP; #DIP SW3
+NET "a[0]"   LOC = "P63" | PULLUP; #DIP SW4
+
+NET "b[3]"   LOC = "P64" | PULLUP; #DIP SW5
+NET "b[2]"   LOC = "P68" | PULLUP; #DIP SW6
+
+NET "b[1]"   LOC = "P69" | PULLUP; #DIP SW7
+NET "b[0]"   LOC = "P70" | PULLUP; #DIP SW8
+
+NET "a_gt_b"   LOC = "P55"; #D1
+NET "a_lt_b"   LOC = "P54"; #D2
+NET "a_eq_b"   LOC = "P51"; #D3
