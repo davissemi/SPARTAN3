@@ -1,0 +1,12 @@
+# Davis Semiconductor
+# Author: psd0
+
+NET "en"   LOC = "P58" | PULLUP; # enable
+NET "a1"   LOC = "P59" | PULLUP; # bit a1
+NET "a0"   LOC = "P60" | PULLUP; # bit a0
+
+NET "en_out" LOC = "P46"; # D8  enable 
+NET "z[3]"   LOC = "P55"; # D4 (1000)
+NET "z[2]"   LOC = "P54"; # D3 (0100)
+NET "z[1]"   LOC = "P51"; # D2 (0010)
+NET "z[0]"   LOC = "P50"; # D1 (0000)
