@@ -8,6 +8,6 @@ This 2-to-4 bit encoder implements the following truth table:
 | 1  | 0  | 0  |  0 |  0 |  0 |  1 |
 | 1  | 0  | 1  |  0 |  0 |  1 |  0 |
 | 1  | 1  | 0  |  0 |  1 |  0 |  0 |
-| 1  | 1  | 1  |  1 |  1 |  1 |  1 |
+| 1  | 1  | 1  |  1 |  0 |  0 |  0 |
 
-
+Derived from *FPGA Prototyping with Verilog*, Pong Chu.
