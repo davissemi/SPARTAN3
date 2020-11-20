@@ -9,7 +9,7 @@ the magnitude.  It implements the following truth table:
 | a1<b1 |   X   |   0   |   1   |   0   |
 | a1=b1 | a0>b0 |   1   |   0   |   0   |
 | a1=b1 | a0<b0 |   0   |   1   |   0   |
-| a1=b1 | a1=b1 |   0   |   0   |   1   |
+| a1=b1 | a0=b0 |   0   |   0   |   1   |
 
 On the Elbert V2, the switches and LEDs are configured thus:
 
