@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Users/pauls/fpgadev/SPARTAN3/mux_4_to_1/mux_4_to_1.xst" -ofn "C:/Users/pauls/fpgadev/SPARTAN3/mux_4_to_1/mux_4_to_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 mux_4_to_1.ngc mux_4_to_1.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o mux_4_to_1_map.ncd mux_4_to_1.ngd mux_4_to_1.pcf 
+par -w -intstyle ise -ol high -t 1 mux_4_to_1_map.ncd mux_4_to_1.ncd mux_4_to_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux_4_to_1.twx mux_4_to_1.ncd -o mux_4_to_1.twr mux_4_to_1.pcf 
+bitgen -intstyle ise -f mux_4_to_1.ut mux_4_to_1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux_4_to_1.ucf -p xc3s50a-tq144-4 mux_4_to_1.ngc mux_4_to_1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux_4_to_1.ucf -p xc3s50a-tq144-4 mux_4_to_1.ngc mux_4_to_1.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o mux_4_to_1_map.ncd mux_4_to_1.ngd mux_4_to_1.pcf 
+par -w -intstyle ise -ol high -t 1 mux_4_to_1_map.ncd mux_4_to_1.ncd mux_4_to_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux_4_to_1.twx mux_4_to_1.ncd -o mux_4_to_1.twr mux_4_to_1.pcf -ucf mux_4_to_1.ucf 
+bitgen -intstyle ise -f mux_4_to_1.ut mux_4_to_1.ncd 
+xst -intstyle ise -ifn "C:/Users/pauls/fpgadev/SPARTAN3/mux_4_to_1/mux_4_to_1.xst" -ofn "C:/Users/pauls/fpgadev/SPARTAN3/mux_4_to_1/mux_4_to_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux_4_to_1.ucf -p xc3s50a-tq144-4 mux_4_to_1.ngc mux_4_to_1.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o mux_4_to_1_map.ncd mux_4_to_1.ngd mux_4_to_1.pcf 
+par -w -intstyle ise -ol high -t 1 mux_4_to_1_map.ncd mux_4_to_1.ncd mux_4_to_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux_4_to_1.twx mux_4_to_1.ncd -o mux_4_to_1.twr mux_4_to_1.pcf -ucf mux_4_to_1.ucf 
+bitgen -intstyle ise -f mux_4_to_1.ut mux_4_to_1.ncd 
