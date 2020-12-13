@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\pauls\fpgadev\SPARTAN3\mux_4_to_1\mux_4_to_1.ncd
-OUTFILE=C:\Users\pauls\fpgadev\SPARTAN3\mux_4_to_1\mux_4_to_1.bit
-FAMILY=Spartan3A and Spartan3AN
-PART=xc3s50a-4tq144
-WORKINGDIR=C:\Users\pauls\fpgadev\SPARTAN3\mux_4_to_1
-LICENSE=WebPack
-USER_INFO=211666896_0_0_770
