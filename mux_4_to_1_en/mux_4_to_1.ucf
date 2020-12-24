@@ -1,0 +1,14 @@
+# Davis Semiconductor
+# Author: psd0
+
+NET "x[0]"   LOC = "P58" | PULLUP; # SW1 x0
+NET "x[1]"   LOC = "P59" | PULLUP; # SW2 x1
+NET "x[2]"   LOC = "P60" | PULLUP; # SW3 x2
+NET "x[3]"   LOC = "P63" | PULLUP; # SW4 x3
+
+NET "sel[1]"   LOC = "P68" | PULLUP; # SW6 s1
+NET "sel[0]"   LOC = "P69" | PULLUP; # SW7 s0
+
+NET "en"       LOC = "P70" | PULLUP; # SW8 en
+
+NET "y" LOC = "P46"; # D8 y
